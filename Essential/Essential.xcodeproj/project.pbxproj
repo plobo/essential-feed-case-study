@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6911067B28F0FBA400962CB3 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911067A28F0FBA400962CB3 /* RemoteFeedLoaderTests.swift */; };
 		6911067D28F10A6000962CB3 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911067C28F10A6000962CB3 /* RemoteFeedLoader.swift */; };
-		6911067E28F10A6000962CB3 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911067C28F10A6000962CB3 /* RemoteFeedLoader.swift */; };
 		6921E59A28EE6FAA000186BF /* EssentialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921E59928EE6FAA000186BF /* EssentialApp.swift */; };
 		6921E59C28EE6FAA000186BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921E59B28EE6FAA000186BF /* ContentView.swift */; };
 		6921E59E28EE6FAC000186BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6921E59D28EE6FAC000186BF /* Assets.xcassets */; };
@@ -111,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6911067F28F10B6100962CB3 /* Feed API */ = {
+			isa = PBXGroup;
+			children = (
+				6911067C28F10A6000962CB3 /* RemoteFeedLoader.swift */,
+			);
+			path = "Feed API";
+			sourceTree = "<group>";
+		};
 		6921E58D28EE6FAA000186BF = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +145,7 @@
 		6921E59828EE6FAA000186BF /* Essential */ = {
 			isa = PBXGroup;
 			children = (
+				6911067F28F10B6100962CB3 /* Feed API */,
 				693E7A9828EE94EF00B34364 /* Feed Feature */,
 				6921E59928EE6FAA000186BF /* EssentialApp.swift */,
 				6921E59B28EE6FAA000186BF /* ContentView.swift */,
@@ -195,7 +203,6 @@
 			children = (
 				693E7A9928EE950200B34364 /* FeedItem.swift */,
 				693E7A9B28EE952200B34364 /* FeedLoader.swift */,
-				6911067C28F10A6000962CB3 /* RemoteFeedLoader.swift */,
 			);
 			path = "Feed Feature";
 			sourceTree = "<group>";
@@ -412,7 +419,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6911067B28F0FBA400962CB3 /* RemoteFeedLoaderTests.swift in Sources */,
-				6911067E28F10A6000962CB3 /* RemoteFeedLoader.swift in Sources */,
 				6921E5AB28EE6FAC000186BF /* EssentialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
