@@ -24,6 +24,7 @@
 		6960C4B628FA3A18006BD3E1 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B228FA3A18006BD3E1 /* FeedLoader.swift */; };
 		6960C4B728FA3A18006BD3E1 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B328FA3A18006BD3E1 /* FeedItem.swift */; };
 		6960C4B828FA3A18006BD3E1 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B528FA3A18006BD3E1 /* RemoteFeedLoader.swift */; };
+		699FEA252903907C00518C69 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FEA242903907C00518C69 /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		6960C4B228FA3A18006BD3E1 /* FeedLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		6960C4B328FA3A18006BD3E1 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		6960C4B528FA3A18006BD3E1 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		699FEA242903907C00518C69 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				6906DD162902397B006E3B60 /* RemoteFeedLoaderTests.swift */,
+				699FEA242903907C00518C69 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6906DD172902397B006E3B60 /* RemoteFeedLoaderTests.swift in Sources */,
+				699FEA252903907C00518C69 /* URLSessionHTTPClientTests.swift in Sources */,
 				6921E5D728EE7137000186BF /* EssentialFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
