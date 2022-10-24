@@ -26,6 +26,7 @@
 		6960C4B828FA3A18006BD3E1 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B528FA3A18006BD3E1 /* RemoteFeedLoader.swift */; };
 		699FEA252903907C00518C69 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FEA242903907C00518C69 /* URLSessionHTTPClientTests.swift */; };
 		699FEA282906406800518C69 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FEA272906406800518C69 /* XCTestCase+Extension.swift */; };
+		699FEA2A29065C5100518C69 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FEA2929065C5100518C69 /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		6960C4B528FA3A18006BD3E1 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		699FEA242903907C00518C69 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		699FEA272906406800518C69 /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
+		699FEA2929065C5100518C69 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				6960C4B528FA3A18006BD3E1 /* RemoteFeedLoader.swift */,
 				6906DD1129022CEC006E3B60 /* HTTPClient.swift */,
 				6906DD1329022D90006E3B60 /* FeedItemMapper.swift */,
+				699FEA2929065C5100518C69 /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699FEA2A29065C5100518C69 /* URLSessionHTTPClient.swift in Sources */,
 				6960C4B828FA3A18006BD3E1 /* RemoteFeedLoader.swift in Sources */,
 				6906DD1229022CEC006E3B60 /* HTTPClient.swift in Sources */,
 				6960C4B628FA3A18006BD3E1 /* FeedLoader.swift in Sources */,
