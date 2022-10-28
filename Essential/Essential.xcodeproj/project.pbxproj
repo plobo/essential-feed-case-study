@@ -23,6 +23,7 @@
 		6921E5D828EE7137000186BF /* EssentialFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6921E5CA28EE7137000186BF /* EssentialFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		692A1335290B8AE000E2D27F /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A1334290B8AE000E2D27F /* EssentialFeedAPIEndToEndTests.swift */; };
 		692A1336290B8AE000E2D27F /* EssentialFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6921E5C828EE7137000186BF /* EssentialFramework.framework */; };
+		692A133C290B94D400E2D27F /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FEA272906406800518C69 /* XCTestCase+Extension.swift */; };
 		6960C4B628FA3A18006BD3E1 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B228FA3A18006BD3E1 /* FeedLoader.swift */; };
 		6960C4B728FA3A18006BD3E1 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B328FA3A18006BD3E1 /* FeedItem.swift */; };
 		6960C4B828FA3A18006BD3E1 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6960C4B528FA3A18006BD3E1 /* RemoteFeedLoader.swift */; };
@@ -546,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A133C290B94D400E2D27F /* XCTestCase+Extension.swift in Sources */,
 				692A1335290B8AE000E2D27F /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
