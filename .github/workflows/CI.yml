@@ -12,6 +12,8 @@ jobs:
       steps:
       - name: Checkout
         uses: actions/checkout@v1
+      - name: Check XCode versions
+        run: ls -n /Applications/ | grep Xcode* 
       - name: Select XCode
         run: sudo xcode-select -switch /Applications/Xcode_14.0.app
       - name: Build and test
