@@ -1,6 +1,8 @@
 # essential-feed-case-study
 A repository to practice TDD, design patterns and refactoring
 
+[![CI](https://github.com/plobo/essential-feed-case-study/actions/workflows/CI.yml/badge.svg)](https://github.com/plobo/essential-feed-case-study/actions/workflows/CI.yml)
+
 # Load Feed Use Case
 
 Data:
